@@ -201,7 +201,7 @@ a {
   .grid__image {
     position: relative;
     width: 100%;
-    height: 15rem;
+    height: 12rem;
     display: flex;
     text-align: center;
     justify-items: center;
@@ -216,7 +216,7 @@ a {
   background-repeat: no-repeat;
 }
 .grid__image--2 {
-  background: url("../images/2.jpeg");
+  background: url("../images/hero-3.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -228,7 +228,7 @@ a {
   background-repeat: no-repeat;
 }
 .grid__image--4 {
-  background: url("../images/4.webp");
+  background: url("../images/hero-1.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -241,6 +241,28 @@ a {
 }
 .grid__image--6 {
   background: url("../images/6.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.grid__image--8 {
+  background: url("../images/8.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}.grid__image--9 {
+  background: url("../images/9.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}.grid__image--10 {
+  background: url("../images/10.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.grid__image--11 {
+  background: url("../images/11.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -263,7 +285,9 @@ a {
   position: absolute;
   bottom: 0;
   left: 50px;
+  font-size: 1.2rem;
 }
+
 
 .grid__image:hover .overlay {
   opacity: 1;
@@ -314,10 +338,15 @@ a {
   text-transform: uppercase;
 }
 .card p {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 .card__content {
   padding: 0 1.2rem;
+}
+
+.card__content h3
+{
+  font-size: 1.2rem;
 }
 
 .card--primary {
@@ -393,7 +422,7 @@ padding-bottom: 2rem;
 /* footer*/
 .footer {
   background: var(--color--heading);
-  padding: 3rem 0;
+  padding-top: 3rem;
   
 }
 
@@ -427,6 +456,7 @@ padding-bottom: 2rem;
 
 .footer__brand
 {
+  padding-top: 2rem;
   justify-self: center;
   text-align: center;
 }
@@ -481,7 +511,7 @@ padding-bottom: 2rem;
 /* Hero */
 .hero
 {
-  background: url("/images/hero-2.jpg");
+  background: url("../images/hero-2.jpg");
  
   background-repeat: no-repeat;
   background-size: cover;
