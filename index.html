@@ -18,6 +18,26 @@
           <li class="nav__item">Portfolio</li>
           <li class="nav__item">Contact me</li>
         </ul>
+        <div class="toggler">
+          <svg class="menu-icon icon">
+            <use xlink:href="images/sprite.svg#list"></use>
+          </svg>
+          <div class="mobile-menu">
+            <ul class="menu-list">
+              <li>
+                <a href="www.google.com">HOME </a>
+              </li>
+              <li><a href="#">ABOUT ME</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">CONTACT ME</a></li>
+            </ul>
+            <div class="menu-close">
+              <svg class="icon">
+                <use xlink:href="images/sprite.svg#x"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
       </div>
     </nav>
 
@@ -35,106 +55,56 @@
         </div>
       </div>
     </section>
-
-    <section class="gallery">
-      <div class="container grid grid--1x6">
-        <div class="grid__image grid__image--4 image__postion">
-          <div class="overlay">
-            <p>Hellow</p>
-          </div>
-        </div>
-
-        <div class="grid__image grid__image--2 image__postion">
-          <div class="overlay">
-            <p>Hellow</p>
-          </div>
-        </div>
-
-        <div class="grid__image grid__image--6 image__postion">
-          <div class="overlay">
-            <p>Hellow</p>
-          </div>
-        </div>
-
-        <div class="grid__image grid__image--9 image__postion">
-          <div class="overlay">
-            <p>Hellow</p>
-          </div>
-        </div>
-
-        <div class="grid__image grid__image--8 image__postion">
-          <div class="overlay">
-            <p>Hellow</p>
-          </div>
-        </div>
-
-        <div class="grid__image grid__image--10 image__postion">
-          <div class="overlay">
-            <p>Hellow</p>
-          </div>
-        </div>
-
-        <div class="grid__image grid__image--5 image__postion">
-          <div class="overlay">
-            <p>Hellow</p>
-          </div>
-        </div>
-
-        <div class="grid__image grid__image--3 image__postion">
-          <div class="overlay">
-            <p>Hellow</p>
-          </div>
-        </div>
-
-        <div class="grid__image grid__image--11 image__postion">
-          <div class="overlay">
-            <p>Hellow</p>
-          </div>
-        </div>
-
-        <div class="grid__image grid__image--2 image__postion">
-          <div class="overlay">
-            <p>Hellow</p>
-          </div>
+    <section class="services">
+      <div class="container section__header">
+        <h3>SERVICES</h3>
+        <div>
+          <span class="section__header--line"></span>
+          <span class="section__header--dot"></span>
         </div>
       </div>
-    </section>
-
-    <section class="services">
-      <div class="container">
+      <div class="container service__grid">
         <div class="card">
-          <span class="card__icon card--primary">
-            <svg class="icon icon--white">
-              <use xlink:href="images/sprite.svg#clock"></use>
+          <header class="card__header">
+            <svg class="icon icon--gold">
+              <use xlink:href="images/sprite.svg#camera-fill"></use>
             </svg>
-          </span>
-          <span class="card__content">
-            <h3>Professional Photograher</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur sit, amet consectetur</p>
-          </span>
+            <h3>wedding Photography</h3>
+          </header>
+          <div class="card__body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum,
+              assumenda?
+            </p>
+          </div>
         </div>
-
         <div class="card">
-          <span class="card__icon card--green">
-            <svg class="icon icon--white">
-              <use xlink:href="images/sprite.svg#tick"></use>
+          <header class="card__header">
+            <svg class="icon icon--gold">
+              <use xlink:href="images/sprite.svg#brush"></use>
             </svg>
-          </span>
-          <span class="card__content">
+          </header>
+          <div class="card__body">
             <h3>Album Desinging & Editing</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur sit, amet consectetur</p>
-          </span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum,
+              assumenda?
+            </p>
+          </div>
         </div>
         <div class="card">
-          <span class="card__icon card--gold">
-            <svg class="icon icon--white">
-              <use xlink:href="images/sprite.svg#chevron"></use>
+          <header class="card__header">
+            <svg class="icon icon--gold">
+              <use xlink:href="images/sprite.svg#camera-reels-fill"></use>
             </svg>
-          </span>
-          <span class="card__content">
             <h3>Cinematography</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-          </span>
+          </header>
+          <div class="card__body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum,
+              assumenda?
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -187,5 +157,7 @@
         </section>
       </div>
     </footer>
+
+    <script src="scripts/main.js"></script>
   </body>
 </html>
