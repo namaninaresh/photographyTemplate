@@ -41,4 +41,24 @@
   <symbol xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16" id="grid-3x3-gap-fill">
     <path d="M1 2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 01-1 1H2a1 1 0 01-1-1V2zm5 0a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 01-1 1H7a1 1 0 01-1-1V2zm5 0a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 01-1 1h-2a1 1 0 01-1-1V2zM1 7a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 01-1 1H2a1 1 0 01-1-1V7zm5 0a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 01-1 1H7a1 1 0 01-1-1V7zm5 0a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 01-1 1h-2a1 1 0 01-1-1V7zM1 12a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 01-1 1H2a1 1 0 01-1-1v-2zm5 0a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 01-1 1H7a1 1 0 01-1-1v-2zm5 0a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 01-1 1h-2a1 1 0 01-1-1v-2z"></path>
   </symbol>
+
+<svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 428.76 113.83" id="logo">
+    <title>Asset 1</title><text transform="translate(140.85 42.96)" font-family="MyriadPro-Regular,Myriad Pro" font-size="47.15">Ha<tspan x="53.46" y="0" letter-spacing="0">r</tspan>
+      <tspan x="69.07" y="0">ish Namani</tspan>
+    </text><text transform="translate(141.05 102.02)" font-size="47.22" font-family="MyriadPro-Regular,Myriad Pro">
+      <tspan>P</tspan>
+      <tspan x="24.89" y="0">ho</tspan>
+      <tspan x="77.02" y="0">t</tspan>
+      <tspan x="92.36" y="0">o</tspan>
+      <tspan x="118.29" y="0">g</tspan>
+      <tspan x="144.4" y="0">r</tspan>
+      <tspan x="159.6" y="0">ap</tspan>
+      <tspan x="209.23" y="0" letter-spacing="-.01em">h</tspan>
+      <tspan x="234.83" y="0">y</tspan>
+    </text>
+    <rect x="4.5" y="4.5" width="103" height="103" rx="20.83" ry="20.83" stroke-width="9" fill="none" stroke="#000" stroke-miterlimit="10"></rect>
+    <circle cx="56.4" cy="55.6" r="24.35" stroke-width="10" fill="none" stroke="#000" stroke-miterlimit="10"></circle>
+    <circle cx="87.54" cy="22.07" r="5.59"></circle>
+  </symbol>
 </svg>

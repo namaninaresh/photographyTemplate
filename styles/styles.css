@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --color--primary: #f6f6f6;
   --color--heading: #262626;
@@ -134,8 +135,13 @@ a {
   font-family: "Roboto", sans-serif;
   color: var(--color--heading);
   letter-spacing: 1px;
+  
+  height: 4rem;
 }
 
+.brand img{
+  height: 100%;
+}
 .list {
   list-style: none;
   font-family: "Lato", sans-serif;
@@ -145,6 +151,7 @@ a {
   color: var(--color--heading);
   font-size: 1rem;
   margin: 0;
+  align-items: center;
   display: inline-flex;
 }
 .nav__item {
@@ -164,7 +171,6 @@ a {
 .mobile-menu
 {
   
-  margin: 0 auto;
   position: absolute;
   width: 75%;
   margin-top: 4rem;
@@ -255,6 +261,14 @@ a {
 
 @media screen and (max-width: 600px) {
   .list {
+    display: none;
+  }
+}
+
+@media screen and (min-width:600px)
+{
+  .toggler
+  {
     display: none;
   }
 }
@@ -510,6 +524,10 @@ padding-bottom: 2rem;
   padding-top: 3rem;
   
 }
+.footer__logo
+{
+  height: 6rem;
+}
 
 .footer .collapsible__heading
 {
@@ -522,6 +540,7 @@ padding-bottom: 2rem;
   list-style: none;
   color: rgb(131, 131, 131);
   font-size: 1.4rem;
+  padding: 0.5rem;
   
 }
 
@@ -547,11 +566,17 @@ padding-bottom: 2rem;
   text-align: center;
 }
 
-.footer__brand p
+.footer__brand .copyrights
 {
   color: var(--color--primary);
   opacity: .5;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
+}
+.footer__brand .thankyou
+{
+  color: var(--color--primary);
+  font-size: 1.1rem;
+  opacity: .5;
 }
 
 .footer__brand h3
@@ -572,6 +597,11 @@ padding-bottom: 2rem;
     
     padding: 1rem 0;
     justify-self: flex-start;
+  }
+
+  .footer__brand .copyrights
+  {
+    font-size: 1.3rem;
   }
     .footer__section
     {
@@ -713,4 +743,6 @@ padding-bottom: 2rem;
   width: 4.5rem;
   height: 4.5rem;
 }
+
 }
+
