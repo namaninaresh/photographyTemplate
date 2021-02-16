@@ -57,6 +57,7 @@
         </div>
       </div>
     </section>
+
     <section class="services">
       <div class="container section__header">
         <h3>SERVICES</h3>
@@ -66,7 +67,7 @@
         </div>
       </div>
       <div class="container service__grid">
-        <div class="card">
+        <div class="card service__card">
           <header class="card__header">
             <svg class="icon icon--gold">
               <use xlink:href="images/sprite.svg#camera-fill"></use>
@@ -80,7 +81,7 @@
             </p>
           </div>
         </div>
-        <div class="card">
+        <div class="card service__card">
           <header class="card__header">
             <svg class="icon icon--gold">
               <use xlink:href="images/sprite.svg#brush"></use>
@@ -94,7 +95,7 @@
             </p>
           </div>
         </div>
-        <div class="card">
+        <div class="card service__card">
           <header class="card__header">
             <svg class="icon icon--gold">
               <use xlink:href="images/sprite.svg#camera-reels-fill"></use>
@@ -110,7 +111,6 @@
         </div>
       </div>
     </section>
-
     <section class="gallery">
       <div class="container">
         <div class="section__header">
@@ -151,6 +151,64 @@
         </div>
 
         <div class="button-section">
+          <button class="btn btn--accent">View More</button>
+        </div>
+      </div>
+    </section>
+    <section class="videosection">
+      <div class="container">
+        <div class="section__header">
+          <h3>Videos</h3>
+          <div>
+            <span class="section__header--line"></span>
+            <span class="section__header--dot"></span>
+          </div>
+        </div>
+        <div class="videossection__content">
+          <div class="card">
+            <header class="card__header">
+              <video
+                onmouseover="VideoController(true, this)"
+                onmouseout="VideoController(false, this)"
+                muted
+              >
+                <source src="videos/sample.mp4" type="video/mp4" />
+              </video>
+            </header>
+            <div class="card__body">
+              <p>SomeOne's Wedding</p>
+            </div>
+          </div>
+          <div class="card">
+            <header class="card__header">
+              <video
+                onmouseover="VideoController(true, this)"
+                onmouseout="VideoController(false, this)"
+                muted
+              >
+                <source src="videos/sample.mp4" type="video/mp4" />
+              </video>
+            </header>
+            <div class="card__body">
+              <p>SomeOne's Wedding</p>
+            </div>
+          </div>
+          <div class="card">
+            <header class="card__header">
+              <video
+                onmouseover="VideoController(true, this)"
+                onmouseout="VideoController(false, this)"
+                muted
+              >
+                <source src="videos/sample.mp4" type="video/mp4" />
+              </video>
+            </header>
+            <div class="card__body">
+              <p>SomeOne's Wedding</p>
+            </div>
+          </div>
+        </div>
+        <div class="videosection_footer">
           <button class="btn btn--accent">View More</button>
         </div>
       </div>
@@ -232,6 +290,7 @@
         </section>
       </div>
     </footer>
+
     <script src="scripts/main.js"></script>
   </body>
 </html>
