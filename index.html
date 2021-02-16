@@ -5,7 +5,232 @@
     <title>CodePen Demo</title>
 
     <meta name="robots" content="noindex" />
+    <link rel="stylesheet" href="styles/styles.css" />
   </head>
 
-  <body></body>
+  <body>
+    <nav class="nav">
+      <div class="container">
+        <a href="#" class="brand"
+          ><img src="images/logo.svg" alt="Logo Image" />
+        </a>
+        <ul class="list">
+          <li class="nav__item active">Home</li>
+          <li class="nav__item">About</li>
+          <li class="nav__item">Portfolio</li>
+          <li class="nav__item">Contact me</li>
+        </ul>
+        <div class="toggler">
+          <svg class="menu-icon icon">
+            <use xlink:href="images/sprite.svg#list"></use>
+          </svg>
+          <div class="mobile-menu">
+            <ul class="menu-list">
+              <li>
+                <a href="www.google.com">HOME </a>
+              </li>
+              <li><a href="#">ABOUT ME</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">CONTACT ME</a></li>
+            </ul>
+            <div class="menu-close">
+              <svg class="icon">
+                <use xlink:href="images/sprite.svg#x"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="hero">
+      <div class="hero__content">
+        <div class="container">
+          <div><p class="welcome">welcome</p></div>
+          <div><h3>Wedding Photographer</h3></div>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium, beatae.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services">
+      <div class="container section__header">
+        <h3>SERVICES</h3>
+        <div>
+          <span class="section__header--line"></span>
+          <span class="section__header--dot"></span>
+        </div>
+      </div>
+      <div class="container service__grid">
+        <div class="card">
+          <header class="card__header">
+            <svg class="icon icon--gold">
+              <use xlink:href="images/sprite.svg#camera-fill"></use>
+            </svg>
+            <h3>wedding Photography</h3>
+          </header>
+          <div class="card__body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum,
+              assumenda?
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <header class="card__header">
+            <svg class="icon icon--gold">
+              <use xlink:href="images/sprite.svg#brush"></use>
+            </svg>
+          </header>
+          <div class="card__body">
+            <h3>Album Desinging & Editing</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum,
+              assumenda?
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <header class="card__header">
+            <svg class="icon icon--gold">
+              <use xlink:href="images/sprite.svg#camera-reels-fill"></use>
+            </svg>
+            <h3>Cinematography</h3>
+          </header>
+          <div class="card__body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum,
+              assumenda?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <div class="container">
+        <div class="section__header">
+          <h3>Gallery</h3>
+          <div>
+            <span class="section__header--line"></span>
+            <span class="section__header--dot"></span>
+          </div>
+        </div>
+        <div class="grid grid--1x3">
+          <div class="grid-image">
+            <img src="images/4.webp" alt="Image" />
+          </div>
+          <div class="grid-image">
+            <img src="images/4.webp" alt="Image" />
+          </div>
+          <div class="grid-image">
+            <img src="images/4.webp" alt="Image" />
+          </div>
+          <div class="grid-image">
+            <img src="images/4.webp" alt="Image" />
+          </div>
+          <div class="grid-image">
+            <img src="images/4.webp" alt="Image" />
+          </div>
+          <div class="grid-image">
+            <img src="images/4.webp" alt="Image" />
+          </div>
+          <div class="grid-image">
+            <img src="images/4.webp" alt="Image" />
+          </div>
+          <div class="grid-image">
+            <img src="images/4.webp" alt="Image" />
+          </div>
+          <div class="grid-image">
+            <img src="images/4.webp" alt="Image" />
+          </div>
+        </div>
+
+        <div class="button-section">
+          <button class="btn btn--accent">View More</button>
+        </div>
+      </div>
+    </section>
+    <section class="pricing">
+      <div class="pricing-container">
+        <div class="pricing__header">
+          <h3>Pricing on Request</h3>
+        </div>
+        <div class="pricing__content">
+          <p>
+            Pre-wedding Shots , Wedding Photography , Cinematography, Album
+            Desigining, Event Photography. All Services are available.
+          </p>
+          <p>
+            You want to create a fun ,memorable album within your budget. Price
+            will be charged according to size, place and type of wedding. You
+            can customise quote according to your budget.
+          </p>
+          <p>
+            Please get in touch to know more information and price quotations
+          </p>
+          <p class="note">Note: Travel , Accomadation charges are included</p>
+        </div>
+        <div class="pricing__footer">
+          <button class="btn btn--outlined">Request</button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container grid grid--1x4">
+        <section class="collapsible footer__section">
+          <header class="collapsible__header">
+            <h3 class="collapsible__heading">Services</h3>
+          </header>
+          <div class="collapsible__content footer__section">
+            <ul>
+              <li>Wedding Photography</li>
+              <li>Candid Shots</li>
+              <li>Cinematography</li>
+              <li>Album Desinging & Editing</li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <header class="collapsible__header">
+            <h3 class="collapsible__heading">About</h3>
+          </header>
+          <div class="collapsible__content">
+            <ul>
+              <li>Profile</li>
+              <li>Social Links</li>
+              <li>Testimonial</li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <header class="collapsible__header">
+            <h3 class="collapsible__heading">Contact</h3>
+          </header>
+          <div class="collapsible__content">
+            <ul>
+              <li>Email :</li>
+              <li>phone Number</li>
+              <li>Facebook</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="footer__brand">
+          <div class="footer__logo">
+            <img src="images/logo-white.svg" alt="Footer Logo" />
+          </div>
+
+          <p class="copyrights">2020-2021 copyrights</p>
+
+          <p class="thankyou">Thank you !</p>
+        </section>
+      </div>
+    </footer>
+    <script src="scripts/main.js"></script>
+  </body>
 </html>
