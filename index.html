@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta charset="UTF-8" />
@@ -21,10 +21,10 @@
           ><img src="images/logo.svg" alt="Logo Image" />
         </a>
         <ul class="list">
-          <li class="nav__item active">Home</li>
-          <li class="nav__item">About</li>
-          <li class="nav__item">Portfolio</li>
-          <li class="nav__item">Contact me</li>
+          <li class="nav__item"><a href="#" class="active">HOME</a></li>
+          <li class="nav__item"><a href="#">about</a></li>
+          <li class="nav__item"><a href="#">Portfolio</a></li>
+          <li class="nav__item"><a href="#">contact</a></li>
         </ul>
         <div class="toggler">
           <svg class="menu-icon icon">
@@ -33,17 +33,12 @@
           <div class="mobile-menu">
             <ul class="menu-list">
               <li>
-                <a href="www.google.com">HOME </a>
+                <a href="www.google.com" class="active"> HOME</a>
               </li>
               <li><a href="#">ABOUT ME</a></li>
               <li><a href="#">Portfolio</a></li>
               <li><a href="#">CONTACT ME</a></li>
             </ul>
-            <div class="menu-close">
-              <svg class="icon">
-                <use xlink:href="images/sprite.svg#x"></use>
-              </svg>
-            </div>
           </div>
         </div>
       </div>
@@ -156,7 +151,7 @@
         </div>
 
         <div class="button-section">
-          <button class="btn btn--accent">View More</button>
+          <a href=""> <button class="btn btn--accent">View More</button></a>
         </div>
       </div>
     </section>
@@ -180,8 +175,12 @@
                 <source src="videos/sample.mp4" type="video/mp4" />
               </video>
             </header>
-            <div class="card__body">
-              <p>SomeOne's Wedding</p>
+            <div class="card__body" style="text-align: center">
+              <p class="video_title">SOMeone's Wedding Video</p>
+              <p class="video_description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia, minima?
+              </p>
             </div>
           </div>
           <div class="card">
@@ -214,63 +213,11 @@
           </div>
         </div>
         <div class="videosection_footer">
-          <button class="btn btn--accent">View More</button>
+          <a href=""> <button class="btn btn--accent">View More</button></a>
         </div>
       </div>
     </section>
-    <section>
-      <div class="container" style="text-align: center; width: 65%">
-        <div class="headings">
-          <p>---------------------------------Lato-------------------------</p>
-          <div class="lato">
-            <h2>PRICING ON REQUEST</h2>
-            <h3>PRICING ON REQUEST</h3>
-            <h4>PRICING ON REQUEST</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-              quasi quos expedita qui asperiores laboriosam perspiciatis porro.
-              Odit ducimus iusto, mollitia eligendi quisquam neque,
-              exercitationem fugit minus officiis debitis distinctio dolorem nam
-              reprehenderit? Assumenda, rem consequuntur mollitia iusto est
-              explicabo.
-            </p>
-          </div>
-          <p>
-            ---------------------------------POPPINS-------------------------
-          </p>
-          <div class="poppins">
-            <h2>PRICING ON REQUEST</h2>
-            <h3>PRICING ON REQUEST</h3>
-            <h4>PRICING ON REQUEST</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-              quasi quos expedita qui asperiores laboriosam perspiciatis porro.
-              Odit ducimus iusto, mollitia eligendi quisquam neque,
-              exercitationem fugit minus officiis debitis distinctio dolorem nam
-              reprehenderit? Assumenda, rem consequuntur mollitia iusto est
-              explicabo.
-            </p>
-          </div>
-          <p>
-            --------------------------------- QUICK
-            SAND-------------------------
-          </p>
-          <div class="quicksand">
-            <h2>PRICING ON REQUEST</h2>
-            <h3>PRICING ON REQUEST</h3>
-            <h4>PRICING ON REQUEST</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-              quasi quos expedita qui asperiores laboriosam perspiciatis porro.
-              Odit ducimus iusto, mollitia eligendi quisquam neque,
-              exercitationem fugit minus officiis debitis distinctio dolorem nam
-              reprehenderit? Assumenda, rem consequuntur mollitia iusto est
-              explicabo.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+
     <section class="pricing">
       <div class="pricing-container">
         <div class="pricing__header">
@@ -292,7 +239,7 @@
           <p class="note">Note: Travel , Accomadation charges are included</p>
         </div>
         <div class="pricing__footer">
-          <button class="btn btn--outlined">Request</button>
+          <a href=""> <button class="btn btn--outlined">Request</button></a>
         </div>
       </div>
     </section>

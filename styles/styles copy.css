@@ -75,7 +75,7 @@ a {
 }
 
 .active {
-  color: var(--color--active);
+  color: var(--color--active) !important;
 }
 
 .link {
