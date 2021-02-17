@@ -1073,3 +1073,21 @@ padding-bottom: 2rem;
   grid-column-gap:3rem;
 }
 }
+
+
+/* Typo*/
+
+.lato h1,.lato h2,.lato h3,.lato h4,.lato h5,.lato p{
+  font-family: 'Lato', sans-serif ;
+
+  
+}
+
+.poppins h1, .poppins h2,.poppins h3,.poppins h4,.poppins h5,.poppins p{
+  font-family: 'Poppins', sans-serif;
+  
+}
+.quicksand p, .quicksand h1, .quicksand h2, .quicksand h3, .quicksand, h4 ,.quicksand h5{
+  font-family: 'Quicksand', sans-serif;
+ 
+}
