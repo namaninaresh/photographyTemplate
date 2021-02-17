@@ -30,6 +30,9 @@
           <svg class="menu-icon icon">
             <use xlink:href="images/sprite.svg#list"></use>
           </svg>
+          <svg class="menu-icon icon close">
+            <use xlink:href="images/sprite.svg#x"></use>
+          </svg>
           <div class="mobile-menu">
             <ul class="menu-list">
               <li>
@@ -277,9 +280,30 @@
           </header>
           <div class="collapsible__content">
             <ul>
-              <li>Email :</li>
-              <li>phone Number</li>
-              <li>Facebook</li>
+              <li class="social youtube">
+                <a href="$">
+                  <svg class="icon">
+                    <use xlink:href="images/sprite.svg#youtube"></use>
+                  </svg>
+                  Youtube
+                </a>
+              </li>
+              <li class="social instagram">
+                <a href="$">
+                  <svg class="icon">
+                    <use xlink:href="images/sprite.svg#instagram"></use>
+                  </svg>
+                  Instagram
+                </a>
+              </li>
+              <li class="social whatsapp">
+                <a href="$">
+                  <svg class="icon">
+                    <use xlink:href="images/sprite.svg#whatsapp"></use>
+                  </svg>
+                  Whatsapp
+                </a>
+              </li>
             </ul>
           </div>
         </section>
@@ -296,6 +320,41 @@
       </div>
     </footer>
 
+    <section>
+      <div class="container">
+        <div class="fixed-icons">
+          <a href="#" class="whatsapp"
+            ><svg class="icon">
+              <use xlink:href="images/sprite.svg#whatsapp"></use></svg
+          ></a>
+          <a href="#" class="arrow-up" id="backtotop"
+            ><svg class="icon">
+              <use
+                xlink:href="images/sprite.svg#arrow-up-circle-fill"
+              ></use></svg
+          ></a>
+        </div>
+      </div>
+    </section>
+
     <script src="scripts/main.js"></script>
+
+    <script>
+      goTop = document.getElementById("backtotop");
+
+      window.onscroll = function () {
+        scrollFunction();
+      };
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          goTop.style.display = "flex";
+        } else {
+          goTop.style.display = "none";
+        }
+      }
+    </script>
   </body>
 </html>
